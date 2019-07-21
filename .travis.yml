@@ -1,10 +1,4 @@
 language: node_js
-node_js:
-  - '8'
-script: npm run
-deploy:
-  provider: script
-  script: npm run deploy
-  skip_cleanup: true
-  on:
-    branch: master
+node_js: node
+cache: npm
+script: npm run now-deploy
