@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "mongodb": "^3.2.7"
+  },
+  "scripts":{
+    "deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public" 
   }
 }
