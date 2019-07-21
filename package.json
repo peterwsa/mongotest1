@@ -7,6 +7,6 @@
     "mongodb": "^3.2.7"
   },
   "scripts":{
-    "now-deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public" 
+    "now-deploy": "now --token=$NOW_TOKEN" 
   }
 }
